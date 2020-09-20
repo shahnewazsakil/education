@@ -1,0 +1,364 @@
+ /* responsive css start */
+
+/* lg device */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+    /* header area  */
+
+    .main-menu ul li a {
+        font-size: 13px;
+        padding: 0 11px;
+    }
+
+    /* events area */
+
+    .single-event {
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-bottom: 291px;
+    }
+
+    .single-event .event-thumb {
+        right: -18%;
+        top: 66%;
+    }
+
+    /* teacher area */
+    .single-teacher:hover .teacher-thumb {
+        margin-bottom: 165px;
+    }
+    .single-teacher:hover .teacher-content p {
+        bottom: -1%;
+    }
+
+    /* testimonial area */
+    .testi-content {
+        margin-right: 60px;
+    }
+    .single-testi .testi-thumb {
+        padding-left: 100px;
+        padding-right: 149px;
+    }
+    .testimonial-area .owl-nav div.owl-prev {
+        left: -15px;
+    }
+    .testimonial-area .owl-nav div.owl-next {
+        right: -15px;
+
+    }
+}
+
+
+/* md device */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    /* header area  */
+
+    .header-bottom {
+        padding-bottom: 17px;
+    }
+    .logo {
+        padding-top: 5px;
+    }
+
+    /* slider area */
+
+    .slider-content h2 {
+        font-size: 25px;
+    }
+
+    .slider-content h1 {
+        font-size: 70px;
+    }
+
+    /* promotion area */
+
+    .promotion-content {
+        margin-bottom: 25px;
+    }
+
+    .promotion-btn{
+        float: none;
+    }
+    /* events area */
+
+    .single-event {
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-bottom: 291px;
+    }
+
+    .single-event .event-thumb {
+        right: -42%;
+        top: 68%;
+    }
+
+    /* fun fact area */
+
+    .single-ff::after {
+        top: auto;
+        height: 1px;
+        width: 60%;
+        bottom: -20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .single-ff.no-after::after{
+        display: block;
+      }
+
+    /* teacher area */
+    .single-teacher:hover .teacher-thumb {
+        margin-bottom: 165px;
+    }
+    .single-teacher:hover .teacher-content p {
+        bottom: -1%;
+    }
+
+    /* testimonial area */
+    .testi-content {
+        margin-right: 60px;
+    }
+    .single-testi .testi-thumb {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+    .testi-info {
+        margin-left: 6px;
+    }
+    .testimonial-area .owl-nav div.owl-prev {
+        left: -15px;
+    }
+    .testimonial-area .owl-nav div.owl-next {
+        right: -15px;
+
+    }
+
+    /* news letter area */
+    .news-letter-content {
+        padding: 100px 65px;
+    }
+}
+
+
+/* small device */
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+    /* header area  */
+
+    .header-bottom {
+        padding-bottom: 17px;
+    }
+    .logo {
+        padding-top: 5px;
+    }
+
+    /* slider area */
+
+    .slider-content h2 {
+        font-size: 25px;
+    }
+
+    .slider-content h1 {
+        font-size: 70px;
+    }
+
+    /* promotion area */
+
+    .promotion-content {
+        margin-bottom: 25px;
+    }
+
+    .promotion-btn{
+        float: none;
+    }
+    /* events area */
+
+    .single-event {
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-bottom: 291px;
+    }
+
+    .single-event .event-thumb {
+        right: -8%;
+        top: 65%;
+    }
+
+    /* fun fact area */
+
+    .single-ff::after {
+        top: auto;
+        height: 1px;
+        width: 60%;
+        bottom: -20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .single-ff.no-after::after{
+        display: block;
+      }
+
+    /* teacher area */
+    .single-teacher:hover .teacher-thumb {
+        margin-bottom: 70px;
+    }
+    .single-teacher:hover .teacher-content p {
+        bottom: 17%;
+    }
+
+    /* testimonial area */
+
+    .single-testi{
+        margin: 0 30px;
+    }
+
+    .testi-content {
+        margin-right: 0px;
+    }
+    .single-testi .testi-thumb {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 25px;
+    }
+    .single-testi .testi-thumb img{
+        margin:auto;
+        margin-bottom: 15px;
+    }
+    .testi-info {
+        margin: auto;
+    }
+    .testimonial-area .owl-nav div.owl-prev {
+        left: -15px;
+    }
+    .testimonial-area .owl-nav div.owl-next {
+        right: -15px;
+
+    }
+
+    /* news letter area */
+    .news-letter-content {
+        padding: 100px 20px;
+    }
+}
+
+
+/* extra small device */
+
+@media (max-width: 575px){
+
+    /* header area  */
+
+    .header-bottom {
+        padding-bottom: 17px;
+    }
+    .logo {
+        padding-top: 5px;
+    }
+
+    /* slider area */
+
+    .slider-content h2 {
+        font-size: 16px;
+    }
+
+    .slider-content h1 {
+        font-size: 45px;
+    }
+
+    /* promotion area */
+
+    .promotion-content {
+        margin-bottom: 25px;
+    }
+
+    .promotion-btn{
+        float: none;
+    }
+    /* events area */
+
+    .single-event {
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-bottom: 291px;
+    }
+
+    .single-event .event-thumb {
+        right: -45%;
+        top: 70%;
+    }
+
+    /* fun fact area */
+
+    .single-ff::after {
+        top: auto;
+        height: 1px;
+        width: 60%;
+        bottom: -20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .single-ff.no-after::after{
+        display: block;
+      }
+
+    /* teacher area */
+    .single-teacher:hover .teacher-thumb {
+        margin-bottom: 100px;
+    }
+    .single-teacher:hover .teacher-content p {
+        bottom: 4%;
+    }
+
+    /* testimonial area */
+
+    .single-testi{
+        margin: 0 30px;
+        text-align: center;
+    }
+
+    .testi-content {
+        margin-right: 0px;
+    }
+    .single-testi .testi-thumb {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 25px;
+    }
+    .single-testi .testi-thumb img{
+        margin:auto;
+        margin-bottom: 15px;
+    }
+    .testi-info {
+        margin: auto;
+    }
+    .testimonial-area .owl-nav div.owl-prev {
+        left: -15px;
+    }
+    .testimonial-area .owl-nav div.owl-next {
+        right: -15px;
+
+    }
+
+    /* news letter area */
+    .news-letter-content {
+        padding: 100px 20px;
+    }
+    .news-letter-content .form-area input {
+        padding-right: 15px;
+    }
+    .news-letter-content .form-area button {
+        top: 121%;
+        right: auto;
+        left: 0;
+    }
+}
